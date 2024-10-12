@@ -1,0 +1,24 @@
+{
+  "name": "collabboard-backend",
+  "version": "1.0.0",
+  "description": "CollabBoard is a collaborative platform aimed at enhancing productivity for remote teams through real-time communication and project management tools. This project integrates essential functionalities to create a seamless user experience.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsc && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.0",
+    "socket.io": "^4.8.0",
+    "typescript": "^5.6.3"
+  }
+}
